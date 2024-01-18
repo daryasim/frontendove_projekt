@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "icon": "fa-group",
+      "title": "650 Participants",
+      "text": "Quisque ut libero sapien. Integer tellus nisl, efficitur sed dolor at, vehicula finibus massa. Sed tincidunt metus sed eleifend suscipit."
+    },
+    {
+      "id": 2,
+      "icon": "fa-clock-o",
+      "title": "24 Programs",
+      "text": "Quisque ut libero sapien. Integer tellus nisl, efficitur sed dolor at, vehicula finibus massa. Sed tincidunt metus sed eleifend suscipit."
+    },
+    {
+      "id": 3,
+      "icon": "fa-microphone",
+      "title": "11 Speakers",
+      "text": "Quisque ut libero sapien. Integer tellus nisl, efficitur sed dolor at, vehicula finibus massa. Sed tincidunt metus sed eleifend suscipit."
+    }
+  
+  ]

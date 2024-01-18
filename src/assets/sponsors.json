@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "image": "/images/microsoft.jpeg",
+      "title": "Microsoft",
+      "subtitle": "Tech support",
+      "description": "Microsoft Corporation, commonly known as Microsoft, is a global technology company that plays a prominent role in the software, hardware, and computing industries. "
+      
+    },
+    {
+        "id": 2,
+        "image": "/images/yahoo.png",
+        "title": "Yahoo",
+        "subtitle": "Media support",
+        "description": "Yahoo is an American web services provider widely known for its search engine, Yahoo Search, and its web portal, Yahoo.com."
+        
+      },
+      {
+        "id": 3,
+        "image": "/images/ibm.jpg",
+        "title": "IBM",
+        "subtitle": "Tech support",
+        "description": "International Business Machines Corporation (IBM) is a globally renowned technology and consulting company headquartered in Armonk, New York. "
+        
+      }
+  ]
+  
