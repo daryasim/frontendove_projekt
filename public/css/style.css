@@ -72,14 +72,22 @@ a {
   padding-bottom: 11rem;
 }
 #detail, #video,
-#speakers, 
-#program,
+#speakers,
 #sponsors, 
 #contact, footer {
     padding-top: 2rem;
     padding-bottom: 5rem;
 }
-
+#detail{
+  padding-top: 7rem;
+  padding-bottom: 2rem;
+  background: url('../images/intro-bg.jpg') 50% 0 repeat-y fixed;
+}
+#program{
+  padding-top: 8rem;
+  padding-bottom: 9rem;
+ 
+}
 #detail,
 #speakers, #sponsors,
 footer {

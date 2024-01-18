@@ -1,4 +1,5 @@
 <template>
+	<Header></Header>
     <!-- =========================
     PROGRAM SECTION   
 ============================== -->
@@ -26,7 +27,7 @@
 					<div role="tabpanel" class="tab-pane active" id="fday">
 						<!-- program speaker here -->
 						<div class="col-md-2 col-sm-2">
-							<img src="images/program-img1.jpg" class="img-responsive" alt="program">
+							
 						</div>
 						<div class="col-md-10 col-sm-10">
 							<h6>
@@ -43,7 +44,7 @@
 
 						<!-- program speaker here -->
 						<div class="col-md-2 col-sm-2">
-							<img src="images/program-img2.jpg" class="img-responsive" alt="program">
+							
 						</div>
 						<div class="col-md-10 col-sm-10">
 							<h6>
@@ -60,7 +61,7 @@
 
 						<!-- program speaker here -->
 						<div class="col-md-2 col-sm-2">
-							<img src="images/program-img3.jpg" class="img-responsive" alt="program">
+							
 						</div>
 						<div class="col-md-10 col-sm-10">
 							<h6>
@@ -76,7 +77,7 @@
 					<div role="tabpanel" class="tab-pane" id="sday">
 						<!-- program speaker here -->
 						<div class="col-md-2 col-sm-2">
-							<img src="images/program-img4.jpg" class="img-responsive" alt="program">
+							
 						</div>
 						<div class="col-md-10 col-sm-10">
 							<h6>
@@ -93,7 +94,7 @@
 
 						<!-- program speaker here -->
 						<div class="col-md-2 col-sm-2">
-							<img src="images/program-img5.jpg" class="img-responsive" alt="program">
+							
 						</div>
 						<div class="col-md-10 col-sm-10">
 							<h6>
@@ -110,7 +111,7 @@
 
 						<!-- program speaker here -->
 						<div class="col-md-2 col-sm-2">
-							<img src="images/program-img6.jpg" class="img-responsive" alt="program">
+							
 						</div>
 						<div class="col-md-10 col-sm-10">
 							<h6>
@@ -126,7 +127,7 @@
 					<div role="tabpanel" class="tab-pane" id="tday">
 						<!-- program speaker here -->
 						<div class="col-md-2 col-sm-2">
-							<img src="images/program-img7.jpg" class="img-responsive" alt="program">
+							
 						</div>
 						<div class="col-md-10 col-sm-10">
 							<h6>
@@ -143,7 +144,7 @@
 
 						<!-- program speaker here -->
 						<div class="col-md-2 col-sm-2">
-							<img src="images/program-img8.jpg" class="img-responsive" alt="program">
+							
 						</div>
 						<div class="col-md-10 col-sm-10">
 							<h6>
@@ -160,7 +161,7 @@
 
 						<!-- program speaker here -->
 						<div class="col-md-2 col-sm-2">
-							<img src="images/program-img9.jpg" class="img-responsive" alt="program">
+							
 						</div>
 						<div class="col-md-10 col-sm-10">
 							<h6>
@@ -179,4 +180,16 @@
 	</div>
     </div>
 </section>
+<Footer></Footer>
 </template>
+<script>
+import Header from '../components/Header.vue';
+import Footer from '../components/Footer.vue';
+export default {
+  components: {
+    Header,
+    Footer,
+
+  },
+}
+</script>
