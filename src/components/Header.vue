@@ -34,7 +34,7 @@ export default {
             links: [
                 { name: 'Home', path: '/' },
                 { name: 'Overview', path: '/overview' },
-                { name: 'Programs', path: '/programs' },
+                { name: 'Programs', path: '/programs/first-day' },
                 { name: 'Register', path: '/register' },
             ],
         };

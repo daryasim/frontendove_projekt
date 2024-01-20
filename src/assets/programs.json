@@ -1,0 +1,107 @@
+{
+    "days": [
+      {
+        "name": "FIRST DAY",
+        "slug": "first-day",
+        "id": 1,
+        "programs": [
+          {
+            "time": "09.00 AM",
+            "room":"Room 240",
+            "name":"Introduction to Design",
+            "teacher":"By Jenny Green",
+            "image": "/images/program-img1.jpg",
+            "description":
+              "Maecenas accumsan metus turpis, eu faucibus ligula interdum in. Mauris at tincidunt felis, vitae aliquam magna. Sed aliquam fringilla vestibulum."
+          },
+          {
+            "time": "10.00 AM",
+            "room":"Room 340",
+            "name":"Front-End Development",
+            "teacher":"By Johnatan Mark",
+            "image": "/images/program-img2.jpg",
+            "description":
+              "Maecenas accumsan metus turpis, eu faucibus ligula interdum in. Mauris at tincidunt felis, vitae aliquam magna. Sed aliquam fringilla vestibulum."
+          },
+          {
+            "time": "11.00 AM",
+            "room":"Room 450",
+            "name":"Social Media Marketing",
+            "teacher":"By John Doe",
+            "image": "/images/program-img3.jpg",
+            "description":
+              "Maecenas accumsan metus turpis, eu faucibus ligula interdum in. Mauris at tincidunt felis, vitae aliquam magna. Sed aliquam fringilla vestibulum."
+          }
+        ]
+      },
+      {
+        "name": "SECOND DAY",
+        "slug": "second-day",
+        "id": 2,
+        "programs": [
+          {
+            "time": "09.00 AM",
+            "room":"Room 240",
+            "name":"Backend Development",
+            "teacher":"By Matt Lee",
+            "image": "/images/program-img4.jpg",
+            "description":
+              "Maecenas accumsan metus turpis, eu faucibus ligula interdum in. Mauris at tincidunt felis, vitae aliquam magna. Sed aliquam fringilla vestibulum."
+          },
+          {
+            "time": "10.00 AM",
+            "room":"Room 140",
+            "name":"Web Application Lite",
+            "teacher":"By David Orlando",
+            "image": "/images/program-img5.jpg",
+            "description":
+              "Maecenas accumsan metus turpis, eu faucibus ligula interdum in. Mauris at tincidunt felis, vitae aliquam magna. Sed aliquam fringilla vestibulum."
+          },
+          {
+            "time": "11.00 AM",
+            "room":"Room 240",
+            "name":"UX Design",
+            "teacher":"By James Lee Mark",
+            "image": "/images/program-img6.jpg",
+            "description":
+              "Maecenas accumsan metus turpis, eu faucibus ligula interdum in. Mauris at tincidunt felis, vitae aliquam magna. Sed aliquam fringilla vestibulum."
+          }
+        ]
+      },
+      {
+        "name": "THIRD DAY",
+        "slug": "third-day",
+        "id": 3,
+        "programs": [
+          {
+            "time": "09.00 AM",
+            "room":"Room 230",
+            "name":"Online Shopping Business",
+            "teacher":"By Michael Walker",
+            "image": "/images/program-img7.jpg",
+            "description":
+              "Maecenas accumsan metus turpis, eu faucibus ligula interdum in. Mauris at tincidunt felis, vitae aliquam magna. Sed aliquam fringilla vestibulum."
+          },
+          {
+            "time": "10.00 AM",
+            "room":"Room 240",
+            "name":"Introduction to Mobile App",
+            "teacher":"By Cherry Stella",
+            "image": "/images/program-img8.jpg",
+            "description":
+              "Maecenas accumsan metus turpis, eu faucibus ligula interdum in. Mauris at tincidunt felis, vitae aliquam magna. Sed aliquam fringilla vestibulum."
+          },
+          {
+            "time": "11.00 AM",
+            "room":"Room 140",
+            "name":"Bootstrap UI Design",
+            "teacher":"By John David",
+            "image": "/images/program-img9.jpg",
+            "description":
+              "Maecenas accumsan metus turpis, eu faucibus ligula interdum in. Mauris at tincidunt felis, vitae aliquam magna. Sed aliquam fringilla vestibulum."
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -86,6 +86,7 @@ a {
 #program{
   padding-top: 8rem;
   padding-bottom: 9rem;
+  background: url('../images/program-bg.jpg');
  
 }
 #detail,
@@ -395,6 +396,8 @@ footer {
 
 .nav-tabs {
   margin-bottom: 20px;
+  display: flex;
+  list-style: none;
 }
 .nav-tabs > li {
   float: left;
@@ -408,13 +411,13 @@ footer {
   border: none;
   border-radius: 0px;
 }
-.nav-tabs > li > a:hover {
+.nav-tabs > li:hover {
   background-color: transparent;
 }
-.nav-tabs > li.active > a,
-.nav-tabs > li.active > a:hover,
-.nav-tabs > li.active > a:focus {
-  color: #f2545f;
+.nav-tabs > li > :active,
+.nav-tabs > li > :hover,
+.nav-tabs > li > :focus {
+  color: #549bf2;
   cursor: default;
   background-color: transparent;
   border: 1px solid transparent;
