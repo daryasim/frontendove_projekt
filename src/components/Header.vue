@@ -35,7 +35,7 @@ export default {
                 { name: 'Home', path: '/' },
                 { name: 'Overview', path: '/overview' },
                 { name: 'Programs', path: '/programs/first-day' },
-                { name: 'Register', path: '/register' },
+                { name: 'Reviews', path: '/register' },
             ],
         };
     },

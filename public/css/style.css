@@ -74,9 +74,13 @@ a {
 #detail, #video,
 #speakers,
 #sponsors, 
-#contact, footer {
+ footer {
     padding-top: 2rem;
     padding-bottom: 5rem;
+}
+#contact{
+  padding-top: 6rem;
+  padding-bottom: 7rem;
 }
 #detail{
   padding-top: 7rem;
@@ -578,7 +582,7 @@ footer {
 
 #contact .contact_detail {
   background: #ffffff;
-  padding: 5rem 5rem 12rem 5rem;
+  padding: 4rem 5rem 7rem 4rem;
 }
 
 #contact .form-control {
@@ -587,7 +591,8 @@ footer {
   border-bottom: 1px solid #f0f0f0;
   border-radius: 0px;
   box-shadow: none;
-  margin-bottom: 16px;
+  margin-bottom: 5px;
+
   transition: all 0.4s ease-in-out;
 }
 
