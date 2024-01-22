@@ -21,10 +21,10 @@
 						<div class="section-title">
 							<h2>Leave review</h2>
 						</div>
-						<form @submit.prevent="ReviewStore.addReview(name, text); name = ''; text = ''" action="#" method="post">
+						<form @submit.prevent="ReviewStore.addReview(name, text, rating); name = ''; text = ''; rating = ''" action="#" method="post">
 							<input v-model="name" name="name" type="text" class="form-control" id="name" placeholder="Name">
-							<textarea v-model="text" name="message" rows="5" class="form-control" id="message"
-								placeholder="Message"></textarea>
+							<input v-model="rating" type="number" min="1" max="5" class="form-control" placeholder="Rating 1-5">
+							<textarea v-model="text" name="message" rows="5" class="form-control" id="message" placeholder="Message"></textarea>
 							<div class="col-md-6 col-sm-10">
 								<input type="submit" class="form-control" id="submit" value="SEND">
 							</div>
@@ -47,7 +47,8 @@ export default {
 	data: () => ({
 		ReviewStore: useReviewStore(),
 		name: '',
-		text: '',
+		text : '', 
+		rating : ''
 	}),
 }
 </script>

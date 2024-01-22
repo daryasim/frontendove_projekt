@@ -13,7 +13,7 @@
 				<h1 class="wow fadeInUp" data-wow-delay="1.6s">IT Conference</h1>
 				<a href="#overview" class="btn btn-lg btn-default smoothScroll wow fadeInUp hidden-xs" data-wow-delay="2.3s">LEARN MORE</a>
 				<router-link to="/register" class="btn btn-lg btn-danger smoothScroll wow fadeInUp" data-wow-delay="2.3s">
-      REGISTER NOW
+      REVIEWS
     </router-link>
 			</div>
 
@@ -44,10 +44,6 @@
 
 <Sponsors></Sponsors>
 <Footer></Footer>
-
-<!-- Back top -->
-<a href="#back-top" class="go-top"><i class="fa fa-angle-up"></i></a>
-
 
 </template>
 <script>

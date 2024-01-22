@@ -7,8 +7,8 @@ export const useReviewStore = defineStore("ReviewStore",{
         review_id: useStorage('review_id',0)
     }),
     actions:{
-        addReview(name,text){
-            this.reviews.push({id:this.review_id,name:name,text:text});
+        addReview(name,text,rating,date){
+            this.reviews.push({id:this.review_id,name,text,rating,date: new Date().toISOString()});
             this.review_id+=1
         },
     }
