@@ -9,10 +9,10 @@
 		<div class="row">
 
 			<div class="col-md-12 col-sm-12">
-				<h3 class="wow bounceIn" data-wow-delay="0.9s">July 22 - 26 in San Francisco, CA</h3>
-				<h1 class="wow fadeInUp" data-wow-delay="1.6s">IT Conference</h1>
-				<a href="#overview" class="btn btn-lg btn-default smoothScroll wow fadeInUp hidden-xs" data-wow-delay="2.3s">LEARN MORE</a>
-				<router-link to="/register" class="btn btn-lg btn-danger smoothScroll wow fadeInUp" data-wow-delay="2.3s">
+				<h3 class="bounceIn" data-wow-delay="0.9s">July 22 - 26 in San Francisco, CA</h3>
+				<h1 class="fadeInUp" data-wow-delay="1.6s">IT Conference</h1>
+				<a href="#overview" class="btn btn-lg btn-default smoothScroll fadeInUp hidden-xs" data-wow-delay="2.3s">LEARN MORE</a>
+				<router-link to="/reviews" class="btn btn-lg btn-danger smoothScroll fadeInUp" data-wow-delay="2.3s">
       REVIEWS
     </router-link>
 			</div>
@@ -28,13 +28,13 @@
 	<div class="container">
 		<div class="row">
 
-			<div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="0.6s">
+			<div class=" fadeInUp col-md-6 col-sm-6" data-wow-delay="0.6s">
 				<h3>FutureTech Summit 2024 - Unleashing Innovation in the Digital Era</h3>
 				<p>Join us at the FutureTech Summit 2024, where groundbreaking ideas, cutting-edge technologies, and visionary thought leaders converge to shape the future of IT. </p>
 				<p>Quisque facilisis scelerisque venenatis. Nam vulputate ultricies luctus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
 			</div>
 					
-			<div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="0.9s">
+			<div class=" fadeInUp col-md-6 col-sm-6" data-wow-delay="0.9s">
 				<img :src="overviewimg" class="img-responsive" alt="Overview">
 			</div>
 

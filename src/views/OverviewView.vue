@@ -8,7 +8,7 @@
 	<div class="container">
 		<div class="row">
 
-			<div class="wow fadeInLeft col-md-offset-1 col-md-5 col-sm-8" data-wow-delay="0.9s">
+			<div class=" fadeInLeft col-md-offset-1 col-md-5 col-sm-8" data-wow-delay="0.9s">
 				<h2>Venue</h2>
 				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat.</p>
 				<h4>New Event</h4>

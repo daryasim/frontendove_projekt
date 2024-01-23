@@ -9,6 +9,18 @@
         <v-card-subtitle>
             {{ formatDate(review.date) }}
         </v-card-subtitle>
+
+        <v-row>
+            <v-col>
+                <v-btn class="ma-2" variant="text" icon="mdi-thumb-up" color="green-lighten-2" @click="likeReview"></v-btn>
+                <v-card-subtitle>{{ likesCount }}</v-card-subtitle>
+            </v-col>
+            <v-col>
+                <v-btn class="ma-2" variant="text" icon="mdi-thumb-down" color="red-lighten-2"
+                    @click="dislikeReview"></v-btn>
+                <v-card-subtitle>{{ dislikesCount }}</v-card-subtitle>
+            </v-col>
+        </v-row>
     </v-card>
 </template>
 <script>
@@ -26,13 +38,25 @@ export default {
             const options = { year: 'numeric', month: 'long', day: 'numeric' };
             return new Date(dateString).toLocaleDateString('en-US', options);
         },
-
+        likeReview() {
+            this.reviewStore.likeReview(this.review.id);
+        },
+        dislikeReview() {
+            this.reviewStore.dislikeReview(this.review.id);
+        },
+    },
+    computed: {
+        likesCount() {
+            return this.reviewStore.likes[this.review.id];
+        },
+        dislikesCount() {
+            return this.reviewStore.dislikes[this.review.id];
+        },
     },
     data() {
         return {
             reviewStore: useReviewStore()
         }
-    }
+    },
 }
 </script>
-<style scoped></style>
